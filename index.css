@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&family=Judson&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+body{
+    display: flex;
+    flex-direction: column;
+    background: url(./img/bg.png);
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-color: #F1E9D4;
+}
+
+/* Header */
+header{
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+    align-items: center;
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    font-size: 40px;
+    font-family: 'Homemade Apple', cursive;
+    text-align: center;
+    color: #401201;
+    line-height: 50px;
+}
+
+/* Main */
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sectionText{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    font-size: 20px;
+    font-family: 'Judson', serif;
+    text-align: center;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+
+.sectionImagens{
+    width: 90%;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.botaoImg{
+    background: url(./img/cifraDeCesar\ 1.png);
+}
+
+.imagem{
+    width: 30%;
+    margin: 20px;
+    border-radius: 40px;
+    border: 2px #401201 solid;
+}
+
+.imagem:hover{
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.subtitle{
+    color: #401201;
+    font-family: 'Judson', serif;
+    text-align: center;
+    font-size: 30px;
+}
+
+.forms{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 90%;
+    margin: 50px 10px 10px 0
+}
+
+.inputTexto{
+    width: 400px;
+    height: 90px;
+    margin-bottom: 15px;
+    border: 2px #401201 solid;
+}
+
+.inputTextoBase{
+    width: 300px;
+    height: 90px;
+    margin: 30px 30px 0;
+    padding: 10px;
+    border: 2px #401201 solid;
+}
+
+.textDeslocamento{
+    font-size: 18px;
+}
+
+.inputNumber{
+    width: 50px;
+    height: 30px;
+    border: 2px #401201 solid;
+}
+
+.resultado{
+    display: flex;
+    border: 2px solid #401201;
+    width: 300px;
+    height: 30px;
+}
+
+.invisivel{
+    display: none;
+}
+
+.btnEnviar{
+    width: 90px;
+    height: 30px;
+    background-color: #401201;
+    color: white;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.btnEnviar:hover{
+    background-color: #260801;
+    color: white;
+}
+
+.btnVoltar{
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+    background-color: #401201;
+    color: white;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.btnVoltar:hover{
+    background-color: #260801;
+    color: white;
+}
+
+
+/* Footer */
+footer{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 60px;
+    background-color: #8C7A58;
+}
+
+.textRodape{
+    font-size: 20px;
+    font-family: 'Judson', serif;
+    text-align: center;
+    font-weight: bold;
+}
+
+
